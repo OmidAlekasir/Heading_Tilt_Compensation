@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     # Subplot 1: True yaw vs. yaw without compensation
     axs[0].plot(yaw, label="Yaw (True)", color="blue")
-    axs[0].plot(yaw_mag, '--', label="Yaw (No Compensation)", color="orange")
+    axs[0].plot(yaw_mag, '--', label="Yaw (No Compensation)", color="red")
     axs[0].set_title("Yaw Comparison (No Compensation)")
     axs[0].set_ylabel("Yaw (degrees)")
     axs[0].legend()
